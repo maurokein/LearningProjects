@@ -1,0 +1,19 @@
+Ábaco: primera calculadora
+
+Teorema fundamental de la numeración: surge del concepto del ábaco 
+
+En la numeración hay un efecto cascada que se va haciendo creciente 
+
+El ábaco evolucionó a una mecánica no eléctrica que permitían hacer cálculos más ocomplejos para tener mayor precisión 
+
+La computadora es el punto de llegada de ese desarrollo: las computadoras nacieron como personas realizando cálculos astronómicos, militares, entre otras cosas, pero la tarea era no escalable, lo que causaba un límite. Los libros de cálculos eran una manera de ayudar a las personas que trabajaban manualmente con el cálculo. 
+
+Como la rapidez se requería de manera creciente, la máquina necesitó evolucionar. los primeros programadores que metían datos a las máquinas eran mujeres: los datos eran ingresados a la máquina que los procesaba y devolvía un output. los cálculos eran balísticos, utilizados para la guerra, por lo cual la velocidad del cálculo era una condición fundamental de su eficiencia. 
+
+El problema que se produjo fue que cada nueva vez había que repetir los cálculos, y así surgieron las tarjetas perforadas para guardar información (censal y numérica)... al inicio los agujeros eran perforados a mano. cada tarjeta representaba ulínea de código. de las tarjetas, que ocasionaban problemas propios de una tecnología manual, se pasó al MACHINE CODE: código máquina: en un inicio se programa en este lenguaje para poder comunicar a la máquina la tarea a realizar, aunque su complejidad hizo que se tuviera que elevar los lenguajes: C y C++. estos lenguajes de alto nivel permiten a los humanos leer y entender de manera más sencilla. los compiladores toman el lenguaje de alto nivel y lo convierte a lenguaje de máquina para que la computadora sea capaz de interpretarlo. 
+
+CLASE 2. inputs/outputs 
+Hay una interacción humano máquina, entrada, proceso y salida... ese es el sentido de la existencia de una computadora (aunque parecería que cada vez la interacción es menor)... los periféricos o dispositivos de entrada y salida permiten interactuar con el procesador. el cálculo matemático de alto nivel es lo que sabe hacer la máquina. lo importante es el tiempo de respuesta: entonces la eficiencia del procesadro implica la realización de miles de millones de operaciones en un simple segundo. 
+
+CLASE 3. LENGUAJE DE MÁQUINA: código binario 
+CLASE 4. bits y bytes. 
