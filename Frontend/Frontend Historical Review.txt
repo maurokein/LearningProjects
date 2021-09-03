@@ -17,3 +17,5 @@ Hay una interacción humano máquina, entrada, proceso y salida... ese es el sen
 
 CLASE 3. LENGUAJE DE MÁQUINA: código binario 
 CLASE 4. bits y bytes. 
+
+Sample line to check if Git and Github running appropriately. 
