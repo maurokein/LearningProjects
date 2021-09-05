@@ -1,0 +1,13 @@
+Al crear una app web, tenemos la parte llamada RUTA: para visitar la página inicial hay que visitar una URL, la cual hay que tipear en el navegador. Lo que creamos es una ruta a seguir por el usuario. Este concepto hace funcionar a una web app.
+
+Para trabajar se utiliza un módulo llamado nodemon: vigila el código de javascript, al hacer un cambio y guardar, nodemon reinicia el servidor automáticamente, de ese modo no hay que cancelar la consola cada vez que hay una modificación en el código. Se agrega en el archivo package.json en la sección devDependencies (dependencias solo utilizadas para el desarrollo, no trasladadas a la fase de producción)
+
+TIPOS DE ENRUTAMIENTO (comunicación navegador/servidor): 
+-MÉTODOS GET -> por defecto en el navegador (el navegador pide algo al servidor para mostrar) 
+-MÉTODO POST -> envíos de datos para almacenamiento
+-método PUT -> envío de datos para actualización en el servidor 
+-head 
+-DELETE -> envío de datos para eliminación  
+-PATCH 
+
+PRINCIPIO REST -> cómo escribir métodos 

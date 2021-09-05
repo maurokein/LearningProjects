@@ -1,0 +1,21 @@
+{
+  "name": "example-server-module",
+  "version": "1.0.0",
+  "description": "node js server module example",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "development": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "course",
+    "server"
+  ],
+  "author": "maurokein",
+  "license": "ISC"
+}

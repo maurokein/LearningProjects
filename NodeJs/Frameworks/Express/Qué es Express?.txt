@@ -1,0 +1,14 @@
+Express es un Framework para crear aplicaciones con Node del lado del servidor. 'most popular Framework built it on top of node to write web apps'
+El servidor envía archivos, pero nosotros podemos enviar archivos, recibir datos de usuarios, enviar videos(archivos pesados)...
+Antes se usaba PHP y Ruby, pero desde 2010 se populariza Server Side JS. Express es una de las herramientas que permiten construir backend con js puro. Express es código de js de otras personas que puede reutilizarse. Esto parece extraño, pero es algo común en la industria del desarrollo, ya que muchas aplicaciones se complementan con módulos de terceros. Cuando se escribe el lado del servidor, hay que tener control: procesamiento de strings, enrutamiento, conexión con bases de datos, etc. El código ya está implementado -> esto es PROGRAMACIÓN FUNCIONAL. Adicionalmente, Express da solo lo que se necesita para la creación de un servidor web. Para otras cosas hay otras herramientas (otros módulos de terceros -> conexión a bases de datos, mostrar imágenes, etc.). Es single triding (al igual que node), asíncrona, etc. 
+JS Universal. Aplicación isomórfica: corre código de js en front y back. Hay, en principio, una lógica compartida. También permite compartir un paradigma de las dos puntas de la app. Al igual que bibliotecas específicas(moment.js, por ejemplo, para manejar fechas). 
+Mean(mongodb, express, angular, node)/Mern(mongodb, express, react, node) -> Stacks tecnológicos con puro javascript
+En paypal hicieron comparaciones y js se volvió muy popular. 
+Esto se considera desarrollo web moderno. Hay reemplazos de js, como Rust (la web avanza rápido)
+Node se utiliza tanto para front como para back. Comunicación en tiempo real -> websockets, webRTC, streamings(videos, juegos) [forma concurrente de entregar contenido]
+MVC Apps (modelo vista controlador)
+happy.js, adonis, etc. 
+La ventaja de express es que es sencillo de escribir, y permite entender conceptos del lado del servidor. 
+DOCUMENTACIÓN: 
+API reference: conceptos más importantes de Express(enrutadores, middlewares, etc.)
+Guide 
