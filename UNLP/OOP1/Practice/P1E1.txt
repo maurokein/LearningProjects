@@ -1,0 +1,11 @@
+Analysis 
+-> Social Net 
+Wallpost Class 
+-atributes -> Text 
+              Likes
+              Featured 
+
+Superclass -> Object 
+Subclass -> Wallpost
+
+Done
