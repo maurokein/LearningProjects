@@ -5,6 +5,13 @@ public class Ticket extends Object {
 	private int cantidadDeProductos;
 	private double pesoTotal;
 	private double precioTotal;
+
+	Public Ticket(java.time.LocalDate fecha, int cantidadDeProductos, double pesoTotal, double precioTotal) {
+		this.setFecha(fecha);
+		this.setCantidadDeProductos(cantidadDeProductos);
+		this.setPesoTotal(pesoTotal);
+		this.setPrecioTotal(precioTotal);
+	}
 	
 	public void setFecha(java.time.LocalDate fecha) {
 		this.fecha = fecha;
@@ -38,8 +45,8 @@ public class Ticket extends Object {
 		return this.precioTotal;
 	}
 	
-	public double aplicarImpuesto(double precio) {
-		double aux = precio * 0.21;
-		return aux;
+	public double impuesto() {
+		double impuestoAplicado = this.getPrecioTotal() * 0.21;
+		return impuestoAplicado;
 	}
 }

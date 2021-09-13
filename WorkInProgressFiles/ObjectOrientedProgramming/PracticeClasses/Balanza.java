@@ -18,7 +18,7 @@ public class Balanza extends Object{
 	} 
 	
 	
-	public double getprecioTotal() {
+	public double getPrecioTotal() {
 		return this.precioTotal;
 	}
 	
@@ -38,10 +38,9 @@ public class Balanza extends Object{
 		precioTotal = precioTotal + precioPorProducto;
 	}
 	
-	public void emitirTicket() {
-		System.out.println("Fecha: " + ticket.getFecha());
-		double total = ticket.getPrecioTotal() + ticket.aplicarImpuesto(precioTotal);
-		System.out.println("Total a pagar: " + total);
+	public Ticket emitirTicket() {
+		fecha = LocalDate.Now();
+		ticket = new Ticket(fecha, this.cantidadDeProductos, this.pesoTotal, this.precioTotal);
 	}
 
 }
