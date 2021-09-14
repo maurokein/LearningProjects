@@ -1,6 +1,7 @@
 Analysis 
 -> Social Net 
-Wallpost Class 
+Wallpost Interface
+*disclaimer: class and interface are not the same thing in Java 
 -atributes -> Text 
               Likes
               Featured 
