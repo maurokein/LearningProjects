@@ -1,14 +1,16 @@
 package ar.edu.unlp.info.oo1.Exercise2;
 
+import java.util.ArrayList;
+
 public class Balanza extends Object{
-	private Producto [] productos;
+	private ArrayList <Producto> productos;
 	private int cantidadDeProductos;
 	private double precioTotal;
 	private double pesoTotal;
 	private Ticket ticket;
 	
 	public Balanza() {
-		this.productos = new Producto[50];
+		this.productos = new ArrayList<Producto>();
 		this.cantidadDeProductos = 0;
 		this.precioTotal = 0;
 		this.pesoTotal = 0;
@@ -31,7 +33,7 @@ public class Balanza extends Object{
 	}
 	
 	public void agregarProducto(Producto producto) {
-		productos[cantidadDeProductos] = producto;
+		productos.add(producto);
 		cantidadDeProductos++;
 		double precioPorProducto = producto.getPeso() * producto.getPrecio();
 		pesoTotal = pesoTotal + producto.getPeso();
@@ -39,8 +41,9 @@ public class Balanza extends Object{
 	}
 	
 	public Ticket emitirTicket() {
-		LocalDate fecha = LocalDate.now();
-		ticket = new Ticket(fecha, this.cantidadDeProductos, this.pesoTotal, this.precioTotal);
+		LocalDate date = LocalDate.now();
+		ticket = new Ticket(date, this.cantidadDeProductos, this.pesoTotal, this.precioTotal);
+		return ticket;
 	}
 
 }
