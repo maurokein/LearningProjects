@@ -39,7 +39,7 @@ public class Balanza extends Object{
 	}
 	
 	public Ticket emitirTicket() {
-		fecha = LocalDate.Now();
+		LocalDate fecha = LocalDate.now();
 		ticket = new Ticket(fecha, this.cantidadDeProductos, this.pesoTotal, this.precioTotal);
 	}
 

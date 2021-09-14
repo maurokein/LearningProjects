@@ -1,23 +1,23 @@
 package ar.edu.unlp.info.oo1.Exercise2;
 
 public class Ticket extends Object {
-	private java.time.LocalDate fecha;
+	private Date fecha;
 	private int cantidadDeProductos;
 	private double pesoTotal;
 	private double precioTotal;
 
-	Public Ticket(java.time.LocalDate fecha, int cantidadDeProductos, double pesoTotal, double precioTotal) {
+	public Ticket(Date fecha, int cantidadDeProductos, double pesoTotal, double precioTotal) {
 		this.setFecha(fecha);
 		this.setCantidadDeProductos(cantidadDeProductos);
 		this.setPesoTotal(pesoTotal);
 		this.setPrecioTotal(precioTotal);
 	}
 	
-	public void setFecha(java.time.LocalDate fecha) {
+	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
 	
-	public java.time.LocalDate getFecha() {
+	public Date getFecha() {
 		return this.fecha;
 	}
 	
