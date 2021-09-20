@@ -1,0 +1,1 @@
+En todo lenguaje de alto nivel, ya sea pasajes de parámetros por referencia o valor será una COPIA DE UNA COPIA. Si lo que paso en Java es un objeto o un dato primitivo, la única diferencia va a ser que en el dato primitivo se copia el valor, y en el objeto se copia la dirección de referencia del objeto.
