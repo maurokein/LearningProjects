@@ -1,0 +1,4 @@
+LISTAS CON ARREGLOS 
+LISTAS CON PUNTEROS 
+
+en la variable tamaño se guarda la cantidad de nodos en la lista que se encuentra implementada con nodos. se utilizan tres punteros: uno apunta al primer elemento de la lista, otro que apunta al último elemento, y uno que apunta al nodo actual. la lista se visualiza como una secuencia de nodos: un objeto de la clase lista que a su vez está compuesto por el OBJETO NODO, y los punteros serán referencias. A su vez cada nodo tiene el dato(el valor que desea guardarse), y un eslabón al siguiente nodo, que será a su vez un nodo.
