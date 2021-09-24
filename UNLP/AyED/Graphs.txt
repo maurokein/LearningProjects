@@ -1,0 +1,2 @@
+A graph consists of a set of points called VERTICES, and lines connecting the points, called EDGES.
+A k-click is a set of k vertices, every pair of which is connected by an edge.  

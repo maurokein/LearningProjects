@@ -1,0 +1,9 @@
+steps to solve a problem: 
+1-formulation & specification -> formal model. Almost any branch of mathematics or science can be called into service to help model some problem domain. 
+2-design: initial goal is to find a solution in the form of an algorithm(finite sequence of instructions, each of which has a clear meaning and can be performed with a finite abount of effort in a finite length of time. A program is an algorithm as long as it never enters an infinite loop on any input.  
+3-implementation
+4-testing
+5-documentation
+6-evaluation 
+
+An algorithm that quickly produces good but not necessarily optimal solutions is called a HEURISTIC. 
